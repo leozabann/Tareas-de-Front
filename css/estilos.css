@@ -1,0 +1,17 @@
+body{background-color: yellow;}
+
+.rojito {color: red;
+text-decoration: underline;}
+
+.azul {color: blue;
+text-decoration: underline;}
+
+.portada {border: 4px solid brown;
+width:400px;
+height:200px;
+}
+
+.tamaño {font-size: 10 px}
+
+.titulo {text-align: center;
+text-decoration: underline;}

@@ -1,50 +1,127 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="./css/estilos.css">
-  </head>
-  <body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Potrero - Flexbox Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+    <link href="./css/default.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
 
-<h1 class="titulo">Sorrentinos con salsa Bolognesa</h1>
-<h2 class="azul">Los sorrentinos fueron creados en Mar del Plata entre los años 1920 y 1930</h2>
-<ul>
-  <li><a target="_blank" href="https://www.clarin.com/recetas/platos-principales/spaghetti-con-salsa-bolognesa_7_Q3Gsa3KIkO.html">Fideos con Salsa bolognesa</a> </li>
-  <li><a target="_blank" href="https://cookpad.com/ar/buscar/ravioles%20con%20salsa%20bolognesa">Ravioles con Salsa bolognesa</a> </li>
-  <li><a href="https://www.recetasdesbieta.com/lasagna-original/">Lasagna</a> </li>
-</ul>
+<div id="header-wrapper">
+    <div id="header-wrapper2">
+        <header id="header" class="container">
+            <div id="logo">
+                <h1 class="gris"><a href="#">Salon de la fama de tenis</a></h1>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li class="current_page_item"><a href="#">Homepage</a></li>
+                    <li><a href="https://www.atptour.com/es">ATP</a></li>
+                    <li><a href="https://www.aat.com.ar/home">AAT</a></li>
+                    <li><a target="_blank" href="contactos.html">Contactos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+</div>
 
-<img class="portada" src="./Imagenes/sorrentinos.jpg" alt="">
-<br>
-<a href="contactos.html">CONTACTOS</a>
+<div id="wrapper">
+    <main id="page" class="container">
 
-<h2 class="rojito">Lista de ingredientes</h2>
-<ul>
-<li class="tamaño">Bolsa de sorrentinos</li>
-<li class="tamaño">Salsa de tomate</li>
-<li>Carne Picada</li>
-<li>Queso rallado</li>
-</ul>
+        <section id="content">
+            <div class="title">
+                <h2>Aca hablamos de los integrantes del famoso museo de la fama del tenis.</h2>
+                <span class="byline">Como las leyendas de este deporte consiguieron este logro</span>
+            </div>
 
-<h2 style="color:#C11007; font-size: 28px;">Preparacion</h2>
-<ol>
-  <li>cortar la carne picada en cuadrados</li>
-  <li>Cortar verduras para la salsa y dorarlas</li>
-  <li>agregar la carne picada y la salsa</li>
-  <li>Tapar hasta que hierva y revolver</li>
-  <li>Hervir agua y cocinar los sorrentinos</li>
-  <li>Servir en el plato con la salsa y queso rallado</li>
-</ol>
+            <div id="two-column">
+                <article id="tbox1">
+                    <div class="title">
+                        <h2>Roger Federer</h2>
+                    </div>
+                    <a href="#" class="image image-full"><img src="images/rf.jfif" alt="Luctus" /></a>
+                    <p>Uno de los miembros mas recientes y uno de los mejores de la historia. Con su elegancia y dominio hizo que muchas personas amen el tenis.</p>
+                    <a href="https://es.wikipedia.org/wiki/Roger_Federer" class="button">Leer Mas</a>
+                </article>
+                <article id="tbox2">
+                    <div class="title">
+                        <h2>Pete Sampras</h2>
+                    </div>
+                    <a href="#" class="image image-full"><img src="images/sampras.jfif" alt="Fringilla" /></a>
+                    <p>El segundo miembro mas importante de este prestigio, que con su saque y pasion por el deporte logro reformar el tenis.</p>
+                    <a href="https://es.wikipedia.org/wiki/Pete_Sampras" class="button">Leer Mas</a>
+                </article>
+            </div>
+        </section>
 
-<audio controls src="./audios/tango2.mp3">
+        <aside id="sidebar">
+            <div class="box1">
+                <div class="title">
+                    <h2>Otras Leyendas</h2>
+                </div>
+                <ul class="style2">
+                    <li><a target="_blank" href="https://es.wikipedia.org/wiki/Andre_Agassi">Andre Agassi</a></li>
+                    <li><a target="_blank" href="https://es.wikipedia.org/wiki/Mar%C3%ADa_Shar%C3%A1pova">María Sharapova</a></li>
+                    <li><a target="_blank" href="https://es.wikipedia.org/wiki/Steffi_Graf">Steffi Graf:</a></li>
+                    <li><a target="_blank" href="https://es.wikipedia.org/wiki/Ivan_Lendl">Ivan Lendl:</a></li>
+                    <li><a target="_blank" href="https://es.wikipedia.org/wiki/John_McEnroe">John McEnroe:</a></li>
+                    <li><a target="_blank" href="https://es.wikipedia.org/wiki/Arthur_Ashe">Arthur Ashe</a></li>
+                </ul>
+            </div>
+            <div class="box2">
+                <div class="title">
+                    <h2>Ranking Actual</h2>
+                </div>
+                <ul class="style2">
+                    <li><a href="https://www.espn.com.ar/tenis/rankings">Ranking ATP Actualizado</a></li>
+                    <li><a href="https://www.aat.com.ar/youth/ranking-classif/56">Ranking del creador de la web</a></li>
 
-</audio>
-<br>
+                </ul>
+            </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k5dLCXFJdao?si=0xYZXcRcLjvsDDB1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.991037953041!2d-71.308257!3d41.482794000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5af5d1e5b9113%3A0xef308d9d245d94e1!2sSal%C3%B3n%20de%20la%20Fama%20del%20Tenis%20Internacional!5e0!3m2!1ses!2sar!4v1785986598271!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-<br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.2982266289782!2d-57.55237422410624!3d-37.99350377193111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc00fd6377af%3A0xa61b08bd751844de!2sTrattoria%20Napolitana%20Vespoli!5e0!3m2!1ses!2sar!4v1785538555789!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-  </body>
+        </aside>
+
+    </main>
+</div>
+
+<section id="portfolio-wrapper">
+    <div id="portfolio" class="container">
+        <div class="title">
+            <h2>Mas Tenistas en el Salon de la fama</h2>
+            <span class="byline">Jugadores mas importantes y que marcaron una epoca</span>
+        </div>
+
+        <div class="portfolio-columns">
+            <div class="column">
+                <p>Jugadoras de tenis en el salon de la fama</p>
+                <a href="https://www.tennisfame.com/hall-of-famers/inductees" class="button">Leer Mas</a>
+            </div>
+            <div class="column">
+                <p>Billie Jean King.
+                Exaltada en 1987. leyenda y pionera de la igualdad salarial en el deporte.</p>
+                <a href="https://es.wikipedia.org/wiki/Billie_Jean_King" class="button">Leer Mas</a>
+            </div>
+            <div class="column">
+                <p>Guillermo Vilas:
+                El mejor tenista Argentino de la historia, el cual es perteneciente de este prestigio</p>
+                <a href="https://es.wikipedia.org/wiki/Guillermo_Vilas" class="button">Leer Mas</a>
+            </div>
+            <div class="column">
+                <p>Gabriela Sabatini:La unica mujer Argentina en ser parte del salon de la fama.</p>
+                <a href="https://es.wikipedia.org/wiki/Gabriela_Sabatini" class="button">Leer Mas</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="copyright" class="container">
+    <p>&copy; Untitled. All rights reserved. | Photos by <a href="#">Fotogrph</a> | Design by <a href="#" rel="nofollow">TEMPLATED</a>.</p>
+</footer>
+
+</body>
 </html>
